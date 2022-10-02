@@ -18,11 +18,26 @@ top_scorers <- read.csv("top scorers.csv", header = T)
 names(top_scorers) <- top_scorers[1,]
 top_scorers <- top_scorers[-1,]
 
-## drop columns with IDs
-top_scorers <- subset(top_scorers, select = -c(1,3))
+## drop columns with player_id
+top_scorers <- subset(top_scorers, select = -c(3))
 
 ## show us the top 3 scorers of each league
-top_3_each <- top_scorers %>%
-  select (league_name, player_name, goals, appearances)%>%
-  pivot_wider(names_from = "league_name", values_from = "goals")%>%
+top_3_each <- Reduce(rbind,
+                           by(top_scorers,
+                              top_scorers["league_name"],
+                              head,
+                              n=3))
+
+## order of league_id, drop last 2 cols
+top_3_each <- top_3_each %>% arrange(league_id)%>%
+  select(league_id, league_name, player_name, goals, appearances)%>%
   collect()
+
+
+
+
+
+
+
+
+                      
