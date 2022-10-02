@@ -1,0 +1,32 @@
+,,,,,,,
+league_id,league_name,player_id,player_name,goals,appearances,position,country
+1,Premier League,1,Alan Shearer,260,441,forward,england
+1,Premier League,2,Wayne Rooney,208,491,forward,england
+1,Premier League,3,Harry Kane,190,290,forward,england
+1,Premier League,4,Andy Cole,187,414,forward,england
+1,Premier League,5,Sergio Aguero,184,275,forward,argentina
+1,Premier League,6,Frank Lampard,177,609,midfield,england
+1,Premier League,7,Thierry Henry,175,258,forward,france
+1,Premier League,8,Robbie Fowler,163,379,forward,england
+1,Premier League,9,Jermaine Defoe,162,496,forward,england
+1,Premier League,10,Michael Owen,150,326,forward,england
+2,La Liga,11,Leo Messi,474,520,forward,argentina
+2,La Liga,12,Cristiano Ronaldo,311,292,forward,portugal
+2,La Liga,13,Telmo Zarra,254,277,forward,spain
+2,La Liga,14,Hugo Sanchez,234,347,forward,mexico
+2,La Liga,15,Raul,228,550,forward,spain
+2,La Liga,16,Alfredo di Stefano,22,329,forward,spain
+2,La Liga,17,Karim Benzema,222,419,forward,france
+2,La Liga,18,Cesar Rodriguez,221,353,forward,spain
+2,La Liga,19,Quini,219,448,forward,spain
+2,La Liga,20,Pahino,214,278,forward,spain
+3,Bundesliga,21,Gerd Muller,365,427,forward,germany
+3,Bundesliga,22,Robert Lewandowski,312,384,forward,poland
+3,Bundesliga,23,Klaus Fischer,268,535,forward,germany
+3,Bundesliga,24,Jupp Heynckes,220,369,forward,germany
+3,Bundesliga,25,Manfred Burgsmuller,213,447,forward,germany
+3,Bundesliga,26,Claudio Pizarro,197,490,forward,peru
+3,Bundesliga,27,Ulf Kristen,182,350,forward,germany
+3,Bundesliga,28,Stefan Kuntz,179,449,forward,germany
+3,Bundesliga,29,Dieter Muller,177,303,forward,germany
+3,Bundesliga,30,Klaus Allofs,177,424,forward,germany
