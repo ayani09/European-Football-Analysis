@@ -33,6 +33,12 @@ top_3_each <- top_3_each %>% arrange(league_id)%>%
   select(league_id, league_name, player_name, goals, appearances)%>%
   collect()
 
+##create a pivot view to show this?
+install.packages(pivottabler)
+library(pivottabler)
+pt<-PivotTable$new()
+
+
 
 
 
