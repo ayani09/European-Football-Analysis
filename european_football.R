@@ -38,7 +38,8 @@ install.packages(pivottabler)
 library(pivottabler)
 pt<-PivotTable$new()
 pt$addData(top_scorers)
-
+pt$addRowDataGroups(league_name)
+pt$addColumnDataGroups(appearances, goals)
 
 
 
