@@ -1,2 +1,2 @@
 # European-Football-Analysis
-MySQL project analysing European Football data
+R project analysing European Football data
