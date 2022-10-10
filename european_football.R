@@ -37,7 +37,6 @@ top_3_each <- top_3_each %>% arrange(league_id)%>%
 install.packages(pivottabler)
 library(pivottabler)
 pt<-PivotTable$new()
-
 pt$addData(top_scorers)
 pt$addRowDataGroups(league_name)
 pt$addColumnDataGroups(appearances, goals)
