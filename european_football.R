@@ -42,6 +42,10 @@ pt$addRowDataGroups(league_name)
 pt$addColumnDataGroups(appearances, goals)
 
 
+## create graph showing average goals 
+## per appearance by league
+
+
 
 
 
