@@ -46,6 +46,16 @@ pt$addColumnDataGroups(appearances, goals)
 ## per appearance by league
 
 
+## rename some leagues / players
+
+## create new cols & set conditions 
+## eg efficient by goal/app
+
+## bonuses col by goal av
+
+## transfer value column
+
+
 
 
 
